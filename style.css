@@ -1,0 +1,60 @@
+.box {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.bar {
+    background-color: blue;
+    margin-top: 50px;
+    height: 80px;
+    width: 400px;
+}
+
+.btn {
+    height: 70px;
+    width: 90px;
+    cursor: pointer;
+    margin-left: 2px;
+    border-radius: 20px;
+}
+
+.btn1 {
+    height: 70px;
+    width: 90px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    background-color: slateblue;
+}
+
+.btn:hover {
+    background-color: lightskyblue;
+}
+
+.btn1:hover {
+    background-color: darkblue;
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="text"] {
+    height: 80px;
+    width: 380px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+}
